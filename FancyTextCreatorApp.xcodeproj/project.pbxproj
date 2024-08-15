@@ -1,0 +1,625 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		988AFC182C6E08AB00258AF8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 988AFC172C6E08AB00258AF8 /* AppDelegate.m */; };
+		988AFC1B2C6E08AB00258AF8 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 988AFC1A2C6E08AB00258AF8 /* SceneDelegate.m */; };
+		988AFC1E2C6E08AB00258AF8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 988AFC1D2C6E08AB00258AF8 /* ViewController.m */; };
+		988AFC212C6E08AB00258AF8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 988AFC1F2C6E08AB00258AF8 /* Main.storyboard */; };
+		988AFC242C6E08AB00258AF8 /* FancyTextCreatorApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 988AFC222C6E08AB00258AF8 /* FancyTextCreatorApp.xcdatamodeld */; };
+		988AFC262C6E08AC00258AF8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 988AFC252C6E08AC00258AF8 /* Assets.xcassets */; };
+		988AFC292C6E08AC00258AF8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 988AFC272C6E08AC00258AF8 /* LaunchScreen.storyboard */; };
+		988AFC2C2C6E08AC00258AF8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 988AFC2B2C6E08AC00258AF8 /* main.m */; };
+		988AFC362C6E08AC00258AF8 /* FancyTextCreatorAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 988AFC352C6E08AC00258AF8 /* FancyTextCreatorAppTests.m */; };
+		988AFC402C6E08AC00258AF8 /* FancyTextCreatorAppUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 988AFC3F2C6E08AC00258AF8 /* FancyTextCreatorAppUITests.m */; };
+		988AFC422C6E08AC00258AF8 /* FancyTextCreatorAppUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 988AFC412C6E08AC00258AF8 /* FancyTextCreatorAppUITestsLaunchTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		988AFC322C6E08AC00258AF8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 988AFC0B2C6E08AB00258AF8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 988AFC122C6E08AB00258AF8;
+			remoteInfo = FancyTextCreatorApp;
+		};
+		988AFC3C2C6E08AC00258AF8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 988AFC0B2C6E08AB00258AF8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 988AFC122C6E08AB00258AF8;
+			remoteInfo = FancyTextCreatorApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		988AFC132C6E08AB00258AF8 /* FancyTextCreatorApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FancyTextCreatorApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		988AFC162C6E08AB00258AF8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		988AFC172C6E08AB00258AF8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		988AFC192C6E08AB00258AF8 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		988AFC1A2C6E08AB00258AF8 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		988AFC1C2C6E08AB00258AF8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		988AFC1D2C6E08AB00258AF8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		988AFC202C6E08AB00258AF8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		988AFC232C6E08AB00258AF8 /* FancyTextCreatorApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FancyTextCreatorApp.xcdatamodel; sourceTree = "<group>"; };
+		988AFC252C6E08AC00258AF8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		988AFC282C6E08AC00258AF8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		988AFC2A2C6E08AC00258AF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		988AFC2B2C6E08AC00258AF8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		988AFC312C6E08AC00258AF8 /* FancyTextCreatorAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FancyTextCreatorAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		988AFC352C6E08AC00258AF8 /* FancyTextCreatorAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FancyTextCreatorAppTests.m; sourceTree = "<group>"; };
+		988AFC3B2C6E08AC00258AF8 /* FancyTextCreatorAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FancyTextCreatorAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		988AFC3F2C6E08AC00258AF8 /* FancyTextCreatorAppUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FancyTextCreatorAppUITests.m; sourceTree = "<group>"; };
+		988AFC412C6E08AC00258AF8 /* FancyTextCreatorAppUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FancyTextCreatorAppUITestsLaunchTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		988AFC102C6E08AB00258AF8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		988AFC2E2C6E08AC00258AF8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		988AFC382C6E08AC00258AF8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		988AFC0A2C6E08AB00258AF8 = {
+			isa = PBXGroup;
+			children = (
+				988AFC152C6E08AB00258AF8 /* FancyTextCreatorApp */,
+				988AFC342C6E08AC00258AF8 /* FancyTextCreatorAppTests */,
+				988AFC3E2C6E08AC00258AF8 /* FancyTextCreatorAppUITests */,
+				988AFC142C6E08AB00258AF8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		988AFC142C6E08AB00258AF8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				988AFC132C6E08AB00258AF8 /* FancyTextCreatorApp.app */,
+				988AFC312C6E08AC00258AF8 /* FancyTextCreatorAppTests.xctest */,
+				988AFC3B2C6E08AC00258AF8 /* FancyTextCreatorAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		988AFC152C6E08AB00258AF8 /* FancyTextCreatorApp */ = {
+			isa = PBXGroup;
+			children = (
+				988AFC162C6E08AB00258AF8 /* AppDelegate.h */,
+				988AFC172C6E08AB00258AF8 /* AppDelegate.m */,
+				988AFC192C6E08AB00258AF8 /* SceneDelegate.h */,
+				988AFC1A2C6E08AB00258AF8 /* SceneDelegate.m */,
+				988AFC1C2C6E08AB00258AF8 /* ViewController.h */,
+				988AFC1D2C6E08AB00258AF8 /* ViewController.m */,
+				988AFC1F2C6E08AB00258AF8 /* Main.storyboard */,
+				988AFC252C6E08AC00258AF8 /* Assets.xcassets */,
+				988AFC272C6E08AC00258AF8 /* LaunchScreen.storyboard */,
+				988AFC2A2C6E08AC00258AF8 /* Info.plist */,
+				988AFC2B2C6E08AC00258AF8 /* main.m */,
+				988AFC222C6E08AB00258AF8 /* FancyTextCreatorApp.xcdatamodeld */,
+			);
+			path = FancyTextCreatorApp;
+			sourceTree = "<group>";
+		};
+		988AFC342C6E08AC00258AF8 /* FancyTextCreatorAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				988AFC352C6E08AC00258AF8 /* FancyTextCreatorAppTests.m */,
+			);
+			path = FancyTextCreatorAppTests;
+			sourceTree = "<group>";
+		};
+		988AFC3E2C6E08AC00258AF8 /* FancyTextCreatorAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				988AFC3F2C6E08AC00258AF8 /* FancyTextCreatorAppUITests.m */,
+				988AFC412C6E08AC00258AF8 /* FancyTextCreatorAppUITestsLaunchTests.m */,
+			);
+			path = FancyTextCreatorAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		988AFC122C6E08AB00258AF8 /* FancyTextCreatorApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 988AFC452C6E08AC00258AF8 /* Build configuration list for PBXNativeTarget "FancyTextCreatorApp" */;
+			buildPhases = (
+				988AFC0F2C6E08AB00258AF8 /* Sources */,
+				988AFC102C6E08AB00258AF8 /* Frameworks */,
+				988AFC112C6E08AB00258AF8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FancyTextCreatorApp;
+			productName = FancyTextCreatorApp;
+			productReference = 988AFC132C6E08AB00258AF8 /* FancyTextCreatorApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		988AFC302C6E08AC00258AF8 /* FancyTextCreatorAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 988AFC482C6E08AC00258AF8 /* Build configuration list for PBXNativeTarget "FancyTextCreatorAppTests" */;
+			buildPhases = (
+				988AFC2D2C6E08AC00258AF8 /* Sources */,
+				988AFC2E2C6E08AC00258AF8 /* Frameworks */,
+				988AFC2F2C6E08AC00258AF8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				988AFC332C6E08AC00258AF8 /* PBXTargetDependency */,
+			);
+			name = FancyTextCreatorAppTests;
+			productName = FancyTextCreatorAppTests;
+			productReference = 988AFC312C6E08AC00258AF8 /* FancyTextCreatorAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		988AFC3A2C6E08AC00258AF8 /* FancyTextCreatorAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 988AFC4B2C6E08AC00258AF8 /* Build configuration list for PBXNativeTarget "FancyTextCreatorAppUITests" */;
+			buildPhases = (
+				988AFC372C6E08AC00258AF8 /* Sources */,
+				988AFC382C6E08AC00258AF8 /* Frameworks */,
+				988AFC392C6E08AC00258AF8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				988AFC3D2C6E08AC00258AF8 /* PBXTargetDependency */,
+			);
+			name = FancyTextCreatorAppUITests;
+			productName = FancyTextCreatorAppUITests;
+			productReference = 988AFC3B2C6E08AC00258AF8 /* FancyTextCreatorAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		988AFC0B2C6E08AB00258AF8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					988AFC122C6E08AB00258AF8 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					988AFC302C6E08AC00258AF8 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 988AFC122C6E08AB00258AF8;
+					};
+					988AFC3A2C6E08AC00258AF8 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 988AFC122C6E08AB00258AF8;
+					};
+				};
+			};
+			buildConfigurationList = 988AFC0E2C6E08AB00258AF8 /* Build configuration list for PBXProject "FancyTextCreatorApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 988AFC0A2C6E08AB00258AF8;
+			productRefGroup = 988AFC142C6E08AB00258AF8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				988AFC122C6E08AB00258AF8 /* FancyTextCreatorApp */,
+				988AFC302C6E08AC00258AF8 /* FancyTextCreatorAppTests */,
+				988AFC3A2C6E08AC00258AF8 /* FancyTextCreatorAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		988AFC112C6E08AB00258AF8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				988AFC292C6E08AC00258AF8 /* LaunchScreen.storyboard in Resources */,
+				988AFC262C6E08AC00258AF8 /* Assets.xcassets in Resources */,
+				988AFC212C6E08AB00258AF8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		988AFC2F2C6E08AC00258AF8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		988AFC392C6E08AC00258AF8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		988AFC0F2C6E08AB00258AF8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				988AFC2C2C6E08AC00258AF8 /* main.m in Sources */,
+				988AFC1E2C6E08AB00258AF8 /* ViewController.m in Sources */,
+				988AFC182C6E08AB00258AF8 /* AppDelegate.m in Sources */,
+				988AFC242C6E08AB00258AF8 /* FancyTextCreatorApp.xcdatamodeld in Sources */,
+				988AFC1B2C6E08AB00258AF8 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		988AFC2D2C6E08AC00258AF8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				988AFC362C6E08AC00258AF8 /* FancyTextCreatorAppTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		988AFC372C6E08AC00258AF8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				988AFC422C6E08AC00258AF8 /* FancyTextCreatorAppUITestsLaunchTests.m in Sources */,
+				988AFC402C6E08AC00258AF8 /* FancyTextCreatorAppUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		988AFC332C6E08AC00258AF8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 988AFC122C6E08AB00258AF8 /* FancyTextCreatorApp */;
+			targetProxy = 988AFC322C6E08AC00258AF8 /* PBXContainerItemProxy */;
+		};
+		988AFC3D2C6E08AC00258AF8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 988AFC122C6E08AB00258AF8 /* FancyTextCreatorApp */;
+			targetProxy = 988AFC3C2C6E08AC00258AF8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		988AFC1F2C6E08AB00258AF8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				988AFC202C6E08AB00258AF8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		988AFC272C6E08AC00258AF8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				988AFC282C6E08AC00258AF8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		988AFC432C6E08AC00258AF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		988AFC442C6E08AC00258AF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		988AFC462C6E08AC00258AF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QN83G8JG7N;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FancyTextCreatorApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kumar.FancyTextCreatorApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		988AFC472C6E08AC00258AF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QN83G8JG7N;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FancyTextCreatorApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kumar.FancyTextCreatorApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		988AFC492C6E08AC00258AF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QN83G8JG7N;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kumar.FancyTextCreatorAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FancyTextCreatorApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FancyTextCreatorApp";
+			};
+			name = Debug;
+		};
+		988AFC4A2C6E08AC00258AF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QN83G8JG7N;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kumar.FancyTextCreatorAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FancyTextCreatorApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FancyTextCreatorApp";
+			};
+			name = Release;
+		};
+		988AFC4C2C6E08AC00258AF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QN83G8JG7N;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kumar.FancyTextCreatorAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FancyTextCreatorApp;
+			};
+			name = Debug;
+		};
+		988AFC4D2C6E08AC00258AF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QN83G8JG7N;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kumar.FancyTextCreatorAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FancyTextCreatorApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		988AFC0E2C6E08AB00258AF8 /* Build configuration list for PBXProject "FancyTextCreatorApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				988AFC432C6E08AC00258AF8 /* Debug */,
+				988AFC442C6E08AC00258AF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		988AFC452C6E08AC00258AF8 /* Build configuration list for PBXNativeTarget "FancyTextCreatorApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				988AFC462C6E08AC00258AF8 /* Debug */,
+				988AFC472C6E08AC00258AF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		988AFC482C6E08AC00258AF8 /* Build configuration list for PBXNativeTarget "FancyTextCreatorAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				988AFC492C6E08AC00258AF8 /* Debug */,
+				988AFC4A2C6E08AC00258AF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		988AFC4B2C6E08AC00258AF8 /* Build configuration list for PBXNativeTarget "FancyTextCreatorAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				988AFC4C2C6E08AC00258AF8 /* Debug */,
+				988AFC4D2C6E08AC00258AF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		988AFC222C6E08AB00258AF8 /* FancyTextCreatorApp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				988AFC232C6E08AB00258AF8 /* FancyTextCreatorApp.xcdatamodel */,
+			);
+			currentVersion = 988AFC232C6E08AB00258AF8 /* FancyTextCreatorApp.xcdatamodel */;
+			path = FancyTextCreatorApp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 988AFC0B2C6E08AB00258AF8 /* Project object */;
+}
